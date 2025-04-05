@@ -10,7 +10,7 @@ Parameters:
   ECSClusterName:
     Type: String
     Description: "Provide the ECS Cluster Name"
-    Default: "Code_Pipeline_ECS_Cluster"
+    Default: "Code_Pipeline_ECS_Cluster1"
   ALBName:
     Type: String
     Description: "Provide the ALB Name"
