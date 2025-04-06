@@ -18,7 +18,7 @@ Parameters:
   SubNetIDs: 
     Description: "Select at least two SubNet IDs for the ECS Service and the load-balancer"
     Type: List<AWS::EC2::Subnet::Id>
-    Default: ["subnet-0d89312375fb1d7a1", "subnet-05dbe6254db815951"]
+    Default: "subnet-0d89312375fb1d7a1,subnet-05dbe6254db815951"
 
 Resources:
 
