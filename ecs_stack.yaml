@@ -1,6 +1,5 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: "This template will create S3 Buckets, Role and Lambda Function"
 
 Parameters:
   VPCID: 
@@ -114,6 +113,7 @@ Resources:
     Type: 'AWS::ECS::TaskDefinition'
     Properties:
       Family: 'WordPressTaskDefinition'
+      ExecutionRoleArn: 'arn:aws:iam::588738614244:role/ecsTaskExecutionRole'
       Cpu: 256
       Memory: 512
       NetworkMode: awsvpc
