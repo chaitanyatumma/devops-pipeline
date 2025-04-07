@@ -135,6 +135,7 @@ Resources:
       DesiredCount: 2
       LaunchType: FARGATE
       TaskDefinition: !Ref ECSTaskDefinition
+      SchedulingStrategy: REPLICA
       LoadBalancers:
         - TargetGroupArn: !Ref TargetGroup
           ContainerName: '2048'
