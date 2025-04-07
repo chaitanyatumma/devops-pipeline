@@ -1,4 +1,4 @@
-FROM nginx:latest
+FROM nginx
 
 LABEL maintainer="sairam.sunkaranam+production1@gmail.com" 
 
