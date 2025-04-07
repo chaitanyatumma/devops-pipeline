@@ -9,11 +9,11 @@ Parameters:
   ECSClusterName:
     Type: String
     Description: "Provide the ECS Cluster Name"
-    Default: "Code_Pipeline_ECS_Cluster1"
+    Default: "Code-Pipeline-ECS-Cluster1"
   ALBName:
     Type: String
     Description: "Provide the ALB Name"
-    Default: "Code_Pipeline_ALB"
+    Default: "Code-Pipeline-ALB"
   SubNetIDs: 
     Description: "Select at least two SubNet IDs for the ECS Service and the load-balancer"
     Type: List<AWS::EC2::Subnet::Id>
