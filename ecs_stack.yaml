@@ -136,7 +136,7 @@ Resources:
       LaunchType: FARGATE
       TaskDefinition: !Ref ECSTaskDefinition
       DeploymentController:
-        Type: CODE_DEPLOY
+        Type: ECS
       SchedulingStrategy: REPLICA
       LoadBalancers:
         - TargetGroupArn: !Ref TargetGroup
