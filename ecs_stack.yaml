@@ -137,7 +137,7 @@ Resources:
       TaskDefinition: !Ref ECSTaskDefinition
       LoadBalancers:
         - TargetGroupArn: !Ref TargetGroup
-          ContainerName: 'WordPRess'
+          ContainerName: '2048'
           ContainerPort: 80
       NetworkConfiguration:
         AwsvpcConfiguration:
