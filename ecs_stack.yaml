@@ -107,7 +107,7 @@ Resources:
       LoadBalancerArn: !Ref LoadBalancer
       Port: '80'
       Protocol: HTTP
-
+ 
   # ECS Task Definition
   ECSTaskDefinition:
     Type: 'AWS::ECS::TaskDefinition'
