@@ -8,7 +8,7 @@ Parameters:
     Default: "vpc-02539a54237d83b3b"
   ECSClusterName:
     Type: String
-    Description: "Provide the ECS Cluster Name"
+    Description: "Provide the ECS Cluster "
     Default: "Code-Pipeline-ECS-Cluster1"
   ALBName:
     Type: String
